@@ -5,5 +5,6 @@ date:   2015-08-05 00:15:09
 categories: blog
 ---
 # 第一步
+![Alt text](/images/d.jpg)
 
 # 第二步
