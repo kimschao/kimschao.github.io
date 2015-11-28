@@ -1,0 +1,18 @@
+.header{
+
+}
+/*对于行内元素，可以通过父级元素的text-aligin:center进行居中*/
+.main{
+    text-align: center;
+}
+
+/*让非百分百宽的块级元素水平剧中 通过margin:auto进行居中*/
+/*.test{*/
+    /*width: 30px;*/
+    /*border: 1px solid red;*/
+    /*margin: auto;*/
+/*}*/
+
+.footer{
+    text-align: center;
+}
