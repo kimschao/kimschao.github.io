@@ -234,3 +234,19 @@
         }
     }
 }
+
+table
+{
+
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  border-left: none;
+}
+table th,
+table td{
+
+  border-left: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+}
