@@ -1,0 +1,41 @@
+.ys .zuo{
+    float: left;
+    padding: 4px;
+    background: #EEEEEE;
+    margin-top: 10px;
+}
+.lx dt {
+    float: left;
+}
+
+.lx{
+    width: 545px;
+    height: 162px;
+    float: left;
+    /*border: 1px solid #B9B9B9;*/
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #eeeeee;
+    line-height: 25px;
+    /*设置缩进*/
+    text-indent: 15px;
+
+}
+.lx img{
+    vertical-align: bottom;
+}
+.zt{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.you{
+    /*float: right;*/
+    border: 3px solid #EEEEEE;
+    width: 465px;
+    height: 383px;
+    margin-top: 12px;
+    /*padding-left: 44px;*/
+    margin-left: 45px;
+}

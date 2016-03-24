@@ -1,0 +1,17 @@
+#lside{
+    /*height: 350px;*/
+    width: 294px;
+    background: #b9b9b9;
+    float: left;
+}
+
+#rside{
+    height: 300px;
+    width: 690px;
+    /*background: #b9b9b9;*/
+    float: right;
+}
+.subtitle a:hover{
+    color: #FF832C;
+
+}

@@ -1,0 +1,301 @@
+.crl{
+    /*清除浮动*/
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+#container{
+    width: 1002px;
+    /*设置网页垂直居中*/
+    margin: auto;
+}
+
+
+
+#header{
+    /*图片的地址以及背景颜色*/
+    background: gray url(../sucai/top_bg.jpg);
+    height: 128px;
+}
+
+#nav li{
+    /*设置标题文字的宽*/
+    width: 90px;
+    /*设置标题的大小*/
+    margin-right: 1px;
+    /*设置左边浮动*/
+    float: left;
+}
+
+#nav a{
+    /*下面是文字的大小*/
+    font-size: 17px;
+    /*下面是字体的样式*/
+    font-family: '微软雅黑';
+    /*下面是文字的颜色*/
+    color: #363636;
+    width: 90px;
+    display: block;
+    /*标题文字显示居中*/
+    text-align: center;
+    height: 37px;
+    /* 加个行高就能显示文字居中效果*/
+    line-height: 37px;
+    /*让鼠标放上去的颜色适配*/
+    margin-top: -3px;
+
+}
+#nav a:hover{
+    /*鼠标放上去文字的颜色*/
+    color: white;
+    /*鼠标放上去标题的背景颜色*/
+    background: url(../sucai/nav_on.gif);
+}
+#keyword{
+    width: 195px;
+    height: 19px;
+    border: 1px none;
+    margin: 7px 6px 0 101px;
+    float: left;
+    color: #B9B9B9;
+}
+#so{
+    margin: 11px 0 0 2px;
+}
+.banner{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#main{
+    /*设置完清除浮动  底下的就不需要*/
+    /*height: 800px;*/
+}
+#lside{
+    /*设置边框的宽*/
+    width: 694px;
+    /*设置边框的高*/
+    height: 483px;
+    /*增加边框以及边框线条颜色*/
+    border: 1px solid #EEE;
+    /*边框背景颜色*/
+    /*background: #d1ffd6;*/
+    /*设置边框左浮动*/
+    float: left;
+
+    border-radius: 10px;
+}
+/*设置边框的title*/
+.subtitle{
+    /*设置title的大小*/
+    height: 37px;
+    line-height: 37px;
+    /*设置title的颜色*/
+    background: grey url(../sucai/index_main_top_bg.gif);
+    /*画边框的圆角*/
+    border-radius: 10px;
+}
+/*title中添加的图片效果*/
+.subtitle img{
+    margin: 5px 0 0 10px;
+    float: left;
+}
+/*设置h1文字*!/*/
+.subtitle h1{
+    color:#151515;
+    float: left;
+    margin-left: 10px;
+    font-family: 'Microsoft Yahei' , SimHei sans-serif;
+    font-size: 16px;
+    line-height: 37px;
+}
+/*设置MORE字体*/
+.subtitle .right{
+    display: block;
+    font-size: 12px;
+    color: #8F8F8F;
+    float: right;
+    line-height: 37px;
+    padding-right: 10px;
+}
+
+/*向lside边框中增加子边框4个*/
+.four{
+    /*子边框的宽*/
+    width: 335px;
+    /*子边框的高*/
+    height: 208px;
+    /*子边框的颜色*/
+    background: #EEE;
+    /*子边框的大小    也可以写一个10px通用*/
+    margin: 16px 0px -8px 8px;
+    /*左浮动*/
+    float: left;
+    border-radius: 10px;
+}
+.four img{
+    margin-left: 10px;
+    padding: 6px;
+    background: white;
+    float: left;
+}
+.four ul {
+    margin-left: 10px;
+    float: left;
+}
+
+.four li{
+    background: url(../sucai/service_intro_bg.gif) no-repeat;
+    padding-left: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.four a{
+    /*适配于各种浏览器就要加上*/
+    font-size: 10px;
+    color: #8F8F8F;
+
+}
+
+
+.four a:visited{
+    color: #808080;
+}
+/*设置鼠标放上去的颜色*/
+.four a:hover{
+    color: #FF832C;
+}
+
+.four h2{
+    color: #A0A0A0;
+    margin: 6px 0 6px 10px;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei' , SimHei , sans-serif;
+}
+/*设置第二个边框的样式*/
+#rside{
+    width: 294px;
+    /*height: 600px;*/
+    /*background: grey;*/
+    /*设置边框右浮动*/
+    float: right;
+}
+#art{
+    background: #EEE;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    /*border-radius: 10px; 加圆角  */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#art a{
+    color: #8F8F8F;
+    display: block;
+    background: url("../sucai/article_head.gif") no-repeat;
+    height: 29px;
+    padding-left: 30px;
+    line-height: 29px;
+    font-size: 10px;
+
+}
+#art a:hover{
+    color: #FF832C;
+    background: url("../sucai/article_on_bg.gif");
+}
+#contact {
+    margin-top: 1px;
+    height: 195px;
+    background: #EEE;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+#contact li{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+#contact a{
+
+    font-size: 10px;
+    color: #8F8F8F;
+}
+#contact .email{
+    vertical-align: middle;
+    margin-right: 18px;
+}
+/*设置底部边框*/
+#footer{
+    margin-top: 15px;
+    height: 120px;
+
+}
+
+/*连在一起的底部边框分离并挤下来一个框*/
+#footer .menu{
+    height: 40px;
+    line-height: 40px;
+    background: #EEE;
+    border-radius: 10px;
+
+}
+#footer .menu a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footer li{
+
+    margin-top: 15px;
+    float: left;
+    margin-right: 10px;
+}
+#footer a:hover{
+    color: #FF832C;
+}
+#footer a{
+    color: #888;
+}
+#footer address {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: '微软雅黑',sans-serif;
+}
+
+#footer address a{
+    /*设置字体偏移*/
+    margin-left: 5px;
+    /*设置字体颜色*/
+    color: #FF832C;
+    /*设置字体粗细*/
+    font: 1em Arial, Tahoma;
+    /*margin-left: 10px;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

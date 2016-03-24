@@ -1,0 +1,13 @@
+.intro a{
+    color: #de2ed4;
+}
+.intro a:active{
+    color: #f23032;
+}
+.intro p{
+    font-size: 12px;
+    /*设置行高*/
+    line-height: 21px;
+    /*设置缩进*/
+    /*text-indent: 28px;*/
+}
